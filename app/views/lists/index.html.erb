@@ -1,0 +1,12 @@
+<h2>These are the lists 🎞️</h2>
+
+<% @lists.each do |list| %>
+
+
+<div class="container">
+    <ul>
+      <li><%= link_to list.name, list %></li>
+    </ul>
+  </div>
+
+<% end  %>
